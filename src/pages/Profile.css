@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.profile body, .home body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+    font-family: Arial, sans-serif; /* Basic font family */
+    text-align: center; /* Center text alignment */
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  .profile, .home {
+    display: flex;
+    flex-direction: column; /* Aligns child elements vertically */
+    align-items: center; /* Centers child elements horizontally */
+  }
+  
+  .profile h1, .home h1 {
+    margin-bottom: 20px; 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+ .profile button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: rgba(0, 0, 0, 0.516); 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 6px; 
+  }
+  
+  .profile button:hover {
+    background-color: #333; /* Darker background on hover */
+  }
+  
+ 
